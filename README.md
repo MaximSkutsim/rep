@@ -24,7 +24,7 @@ A FastAPI-based application for semantic search in text notes using modern trans
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/semantic-notes-search.git
+git clone https://github.com//MaximSkutsim/semantic-notes-search.git
 cd semantic-notes-search
 ```
 
