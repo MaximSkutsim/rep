@@ -52,11 +52,6 @@
     - POST `/build_embeddings/` - Генерация эмбеддингов для заметок
     - POST `/query_semantic/` - Выполнение семантического поиска
 
-## Документация API
-
-После запуска сервера посетите:
-- Swagger UI: `http://localhost:8000/docs`
-- ReDoc: `http://localhost:8000/redoc`
 
 ## Структура проекта
 
