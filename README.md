@@ -1,16 +1,16 @@
 # Semantic Notes Search
 
-A FastAPI-based application for semantic search in text notes using modern transformer models. The project allows users to manage notes and perform semantic similarity searches across their content.
+Приложение на основе FastAPI для семантического поиска по текстовым заметкам с использованием современных моделей трансформеров. Проект позволяет пользователям управлять заметками и выполнять семантический поиск по их содержимому.
 
-## Features
+## Возможности
 
-- Create, update, and delete text notes
-- Generate semantic embeddings for notes using the E5-small-v2 model
-- Perform semantic similarity search across notes
-- Visualize semantic relationships between notes using graph visualization
-- RESTful API for all operations
+- Создание, обновление и удаление текстовых заметок
+- Генерация семантических эмбеддингов для заметок с использованием модели E5-small-v2
+- Выполнение семантического поиска по заметкам
+- Визуализация семантических связей между заметками с помощью графов
+- RESTful API для всех операций
 
-## Technical Stack
+## Технический стек
 
 - Python 3.8+
 - FastAPI
@@ -20,55 +20,55 @@ A FastAPI-based application for semantic search in text notes using modern trans
 - Scikit-learn
 - NumPy
 
-## Installation
+## Установка
 
-1. Clone the repository:
-```bash
-git clone https://github.com//MaximSkutsim/semantic-notes-search.git
-cd semantic-notes-search
-```
+1. Клонируйте репозиторий:
+    ```bash
+    git clone https://github.com//MaximSkutsim/semantic-notes-search.git
+    cd semantic-notes-search
+    ```
 
-2. Create a virtual environment and activate it:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+2. Создайте виртуальное окружение и активируйте его:
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # Для Windows: venv\Scripts\activate
+    ```
 
-3. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
+3. Установите зависимости:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-## Usage
+## Использование
 
-1. Start the FastAPI server:
-```bash
-python src/app.py
-```
+1. Запустите FastAPI сервер:
+    ```bash
+    python src/app.py
+    ```
 
-2. The API will be available at `http://localhost:8000`
+2. API будет доступен по адресу `http://localhost:8000`
 
-3. API endpoints:
-- POST `/build_embeddings/` - Generate embeddings for notes
-- POST `/query_semantic/` - Perform semantic search
+3. API эндпоинты:
+    - POST `/build_embeddings/` - Генерация эмбеддингов для заметок
+    - POST `/query_semantic/` - Выполнение семантического поиска
 
-## API Documentation
+## Документация API
 
-After starting the server, visit:
+После запуска сервера посетите:
 - Swagger UI: `http://localhost:8000/docs`
 - ReDoc: `http://localhost:8000/redoc`
 
-## Project Structure
+## Структура проекта
 
-- `src/` - Source code directory
-  - `app.py` - FastAPI application and endpoints
-  - `index_file.py` - Semantic embedding and search functionality
-  - `notes_processing.py` - Note management operations
-  - `visualization.py` - Graph visualization tools
-- `tests/` - Test files
-- `docs/` - Documentation
-- `examples/` - Example usage scripts
+- `src/` - Каталог исходного кода
+  - `app.py` - FastAPI приложение и эндпоинты
+  - `index_file.py` - Функциональность для семантического поиска и эмбеддингов
+  - `notes_processing.py` - Операции управления заметками
+  - `visualization.py` - Инструменты для визуализации графов
+- `tests/` - Тестовые файлы
+- `docs/` - Документация
+- `examples/` - Скрипты примеров использования
 
-## License
+## Лицензия
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+MIT.
