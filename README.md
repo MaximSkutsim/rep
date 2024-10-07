@@ -13,17 +13,10 @@
 ## Технический стек
 
 ![Python 3.8+](https://img.shields.io/badge/Python%203.8%2B-090909?style=flat-square&logo=python)
-
 ![FastAPI](https://img.shields.io/badge/FastAPI-090909?style=flat-square&logo=fastapi) 
-
 ![PyTorch](https://img.shields.io/badge/PyTorch-090909?style=flat-square&logo=pytorch)
-
 ![Transformers](https://img.shields.io/badge/Transformers-090909?style=flat-square&logo=Hugging%20Face) 
-
-![NetworkX](https://img.shields.io/badge/NetworkX-090909?style=flat-square) 
-
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-090909?style=flat-square&logo=scikit-learn) 
-
 ![NumPy](https://img.shields.io/badge/numpy-090909?style=flat-square&logo=numpy)
 
 
